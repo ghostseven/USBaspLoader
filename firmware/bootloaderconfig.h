@@ -71,7 +71,7 @@ these macros are defined, the boot loader usees them.
 
 #ifndef USB_CFG_DMINUS_BIT
   /* This is Revision 3 and later (where PD6 and PD7 were swapped */
-  #define USB_CFG_DMINUS_BIT      7    /* Rev.2 and previous was 6 */
+  #define USB_CFG_DMINUS_BIT      3    /* QMK Default */
 #endif
 /* This is the bit number in USB_CFG_IOPORT where the USB D- line is connected.
  * This may be any bit in the port.
